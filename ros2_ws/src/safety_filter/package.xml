@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>safety_filter</name>
+  <version>0.1.0</version>
+  <description>C++ joint-action safety filter with timeout protection.</description>
+  <maintainer email="maogao623@gmail.com">Maoxu Gao</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
